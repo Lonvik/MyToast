@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/toast_layout"
+  android:orientation="vertical"
+  android:background="@drawable/toast_background_select"
+  android:layout_marginLeft="30dp"
+  android:layout_marginRight="30dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  	<TextView
+  		android:id="@+id/txt_Title1"
+  		android:layout_gravity="center"
+  		android:text="卡号与身份证信息不匹配"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginLeft="10dp"
+  		android:layout_marginRight="10dp"
+  		android:layout_marginTop="10dp"
+  		android:layout_marginBottom="3dp"
+  		android:gravity="center"
+  		android:textColor="#ffffff"
+  		android:textSize="20dip"
+  	/>
+  	<TextView
+  		android:id="@+id/txt_Title2"
+  		android:text="请重新输入"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_gravity="center"
+  		android:layout_marginLeft="10dp"
+  		android:layout_marginRight="10dp"
+  		android:layout_marginBottom="10dp"
+  		android:textColor="#ffffff"
+  		android:textSize="20dip"
+  	/>
+</LinearLayout>

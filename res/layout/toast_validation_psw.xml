@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/toast_ll"
+  android:orientation="vertical"
+  android:background="@drawable/toast_background_white"
+  android:layout_width="290dp"
+  android:layout_height="wrap_content">
+  	<TextView
+  		android:id="@+id/txt_Title1"
+  		android:layout_gravity="center"
+  		android:text="认证成功！"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginLeft="10dp"
+  		android:layout_marginRight="10dp"
+  		android:layout_marginBottom="3dp"
+  		android:gravity="center"
+  		android:textColor="#000000"
+  		android:textSize="22sp"
+  	/>
+  	<LinearLayout
+  	    android:layout_gravity="center"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="horizontal" >
+
+  		<TextView
+  		    android:id="@+id/tv_perfect_order"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:padding="10dp"
+  		    android:text="总金额:￥8888"
+  		    android:textColor="#000000"
+  		    android:textSize="15sp" />
+
+  	     <TextView
+  	        android:id="@+id/tv_perfect_order"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:layout_marginRight="10dp"
+  	        android:text="分期金额:￥888"
+  	        android:textColor="#000000"
+  	        android:textSize="15sp" /> 
+  	</LinearLayout>
+
+  	<LinearLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="horizontal" >
+
+  		<TextView
+  		    android:id="@+id/tv_perfect_order"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:padding="10dp"
+  		    android:text="支付密码："
+  		    android:textColor="#000000"
+  		    android:textSize="15sp" />
+
+  	    <EditText
+  	        android:id="@+id/tv_perfect_order"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:hint="请输入支付密码"
+  	        android:padding="5dp"
+  	        android:textSize="13sp" 
+  	        android:password="true"
+  	        android:background="@android:color/transparent"/>
+  	    <ImageView 
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:background="@drawable/help"
+  	        android:layout_margin="5dp"
+  	        />
+  	</LinearLayout> 
+  	
+  	<RelativeLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content" >
+
+  	    <TextView
+  	        android:id="@+id/tv_cancel"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:paddingLeft="40dp"
+  	        android:paddingRight="40dp"
+  	        android:paddingTop="10dp"
+  	        android:paddingBottom="10dp"
+  	        android:text="取消"
+  	        android:textColor="#000fff" />
+
+  	    <TextView
+  	        android:id="@+id/tv_determine"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:layout_alignParentRight="true"
+  	        android:paddingLeft="40dp"
+  	        android:paddingRight="40dp"
+  	        android:paddingTop="10dp"
+  	        android:paddingBottom="10dp"
+  	        android:text="确定"
+  	        android:textColor="#000fff" />
+  	</RelativeLayout>
+
+</LinearLayout>
